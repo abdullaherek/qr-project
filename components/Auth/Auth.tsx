@@ -4,7 +4,7 @@ import firebase from "../../firebase/clientApp";
 
 const uiConfig = {
   signInSuccessUrl: "/",
-  signInOptions: [firebase.auth.GithubAuthProvider.PROVIDER_ID],
+  signInOptions: [firebase.auth.GoogleAuthProvider.PROVIDER_ID],
 };
 
 function SignInScreen() {
