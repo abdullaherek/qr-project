@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       {!user && <Auth/>}
       {user && (
         <>
-          <h1> Hello user!</h1>
+          <h1> Hello Apo</h1>
         </>
       )}
     </div>
